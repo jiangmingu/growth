@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    
+
+}
+
+#title{
+    /* background-color: lightgrey; */
+    text-transform: uppercase;
+    color: rgb(233, 14, 32);
+    position: absolute;
+    top: 0;
+    font-size:50pt;
+    margin:0;
+    margin-left: 10px;
+  }
+
+
+#bg{
+    /* width: 100vw; */
+    height: 100vh;
+    /* transform: ; */
+}
+
+#bgBefore{
+    /* background-image: url(./gif.gif); */
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(17, 17, 224);
+    position: absolute;
+    top: 0;
+
+    /* transform: translate(300px); */
+    clip-path: circle(400px);
+
+}
+
+
+#openinggif{
+/* background-image: url(./bgBefore.gif); */
+      width: 100vh;  
+      height: 70vh;
+    position:relative;
+    margin-top: 2%;
+    top: 0%;
+    left: -50px;
+;
+    top: 0;
+    margin-left: 30px;
+    float: right;
+    margin: auto;
+    z-index:2
+    
+    
+}
+#garbage1{
+    width: 100vh;
+    height: 50vh;
+    position:relative ;
+    margin-top: 360px;
+   
+    
+    
+}
+
+.ele{
+    position: absolute;
+    width:300px;
+}
+
+
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+
+#section1{
+    background-color: rgb(240, 240, 238);
+}
+#section2{
+    background-image:url(./secbg.png);
+    background-repeat:initial;
+    background-size:700px ;
+  
+  
+}
+#section3{
+    background-color:rgb(243, 60, 14);
+    /* position: relative; */
+
+}
+
+#cell{
+    position: absolute;
+}
+
+.machine{
+    filter: hue-rotate(180deg) contrast(8);
+    z-index: 7;
+}
+
+#garbage{
+    width: 1500px;
+    position: absolute;
+    right: -400px;
+    z-index: 6;
+}
+
+.desc{
+    width: 500px;
+    font-size: 30px;
+    min-height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(248, 241, 241);
+    z-index: 9;
+    text-align: right;
+ 
+    padding: 20px;
+}
+
+#logo{
+    position: fixed;
+    width: 80px;
+    right: 5px;
+    top: 5px;
+    animation: rot 3s infinite ;
+    z-index: 99;
+}
+
+@keyframes rot {
+    0%{transform: rotate(0);}
+    100%{transform: rotate(360deg);}
+}
+
+#mainTitle{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 10;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100pt;
+    color: rgb(235, 31, 16);
+}
+.concept{
+    width: 400px;
+    min-height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: rgba(240, 172, 94, 0);
+    padding: 20px;
+    font: 1em sans-serif;
+    color: bisque;
+    font-size: 20px ;
+    text-align: right;
+}
+
+#desc{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 335px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 50px;
+    text-align: right;
+    color:bisque;
+    font-size: 16pt;
+ 
+}
+
+#desc p{
+    margin-bottom: 50px;
+  
+}
+
+#blacktruffle{
+    position:relative;
+     width: 250px;
+    /* top:370px; */
+    /* left: 25vh; */
+    filter:opacity(0.7)
+ }
+ 
+.concept2{
+    width: 400px;
+    min-height: 200px;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    background-color: rgba(240, 172, 94, 0);
+    padding: 20px;
+    font: 1em sans-serif;
+    color: bisque;
+    font-size: 20px;
+    text-align: right;
+
+
+ }
+ .img1{
+       /* background-image: url(./gif.gif); */
+     position: absolute;
+       width:40vh;
+     top: 70vh;
+     left: 10vh;
+     
+ }
+ #video{
+     position:inherit;
+     width: 90vh;
+     left:65vh;
+    top: 1vh;
+     
+     z-index: 1;
+ }
+
+.title3{
+    position: relative;
+    /* left:60vh; */
+    top: 0;
+    text-align: center;
+} 
+#GROWTH{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+#star{
+    width: 5vh;
+    /* position:absolute; */
+    top:0; 
+    right:165vh  
+}
+
+#centerimg{
+    position: absolute;
+    bottom: 200px;
+left:-200px;
+    animation: rot 10s infinite ;
+    opacity:0.7;
+   
+}
+
+#link{
+    position: absolute;
+    bottom: 25.5vh;
+    right: 42vh;
+    /* right: 0; */
+    /* left: 0; */
+
+}
+#secbg{
+    position:absolute;
+    z-index:-1;
+   width: 300vh;
+   top:0pt;
+}
+.part3{
+    width: 240px;
+    position:absolute;
+    right:70px;
+    background:url(./wave.gif )
+
+ }
+ 
+    
+    
+
+
+
+#dirtywater{
+    z-index: -7;
+    filter:saturate(0);
+   
+}
+ #rightimg{
+     position:absolute;
+     right: 100px;
+     width:240px;
+     bottom:20.5vh
+
+ }
+
+
+    
+
+
+
+
+    
+  
